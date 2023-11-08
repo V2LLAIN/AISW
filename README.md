@@ -19,7 +19,9 @@
 
 ##### 🤔 BERT is usually used for Sentence Pair Classification Tasks
 <img width="324" alt="스크린샷 2023-11-08 오후 3 12 20" src="https://github.com/V2LLAIN/AISW/assets/104286511/7b83ca2a-db4e-42c5-bd70-d4d2fa2bfcf2">
+
 so i used BERT Model & CodeBERT series from Microsoft
+
 <img width="326" alt="스크린샷 2023-11-08 오후 3 14 42" src="https://github.com/V2LLAIN/AISW/assets/104286511/5de4b572-11b8-4381-9c15-8e7ff586a1b3">
 
 
