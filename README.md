@@ -32,4 +32,4 @@ so i used BERT Model & CodeBERT series from Microsoft
 (https://huggingface.co/spaces/evaluate-metric/accuracy)
 
 #### 🚩 Results: 1st-GraphCodeBERT with 97.8571%
-<img width="876" alt="스크린샷 2023-11-08 오후 3 17 32" src="https://github.com/V2LLAIN/AISW/assets/104286511/6c5d4cb1-05bc-480e-b95b-5e2809bad4a7">
+# Accuracy 표 채워넣기!!!
