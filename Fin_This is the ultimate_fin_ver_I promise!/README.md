@@ -38,10 +38,15 @@
     
     
     python infer.py --file1 ./code1.py --file2 ./code2.py --model_path ./code_similarity_model
+#####    
     python infer.py --file1 ./code1.py --file2 ./code3.py --model_path ./code_similarity_model
+#####        
     python infer.py --file1 ./code1.py --file2 ./code4.py --model_path ./code_similarity_model
+#####        
     python infer.py --file1 ./code2.py --file2 ./code3.py --model_path ./code_similarity_model
+#####        
     python infer.py --file1 ./code2.py --file2 ./code4.py --model_path ./code_similarity_model
+#####        
     python infer.py --file1 ./code3.py --file2 ./code4.py --model_path ./code_similarity_model
    
 로 실행할 수 있습니다.
