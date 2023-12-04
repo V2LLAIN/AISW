@@ -33,11 +33,9 @@ Additionally, the parameters lr, batch_size, epoch, model, max_len, seed, weight
 
 
 #
-#
+# 추론 및 test진행방법:
 
 <img width="184" alt="스크린샷 2023-12-04 오후 9 14 23" src="https://github.com/V2LLAIN/AISW/assets/104286511/7b346c53-9975-4c04-9708-869fcb711a3e">
-
-# 추론 및 test진행방법:
     
     
     python infer.py --file1 ./code1.py --file2 ./code2.py --model_path ./code_similarity_model
