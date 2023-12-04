@@ -7,16 +7,7 @@
 
 
 추론 및 test진행방법:
-    """
-    Directory 구조:
-    Termproject/
-        code_similarity_model/
-        code1.py/
-        code2.py/
-        code3.py/
-        code4.py/
-        infer.py/    
-    """
+<img width="184" alt="스크린샷 2023-12-04 오후 9 14 23" src="https://github.com/V2LLAIN/AISW/assets/104286511/7b346c53-9975-4c04-9708-869fcb711a3e">
     
     
     
