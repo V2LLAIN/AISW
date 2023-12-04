@@ -1,28 +1,28 @@
 # 학습진행하는방법:
 
 ### BERT
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="bert-base-
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="bert-base-
 
 ### CodeBERT
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="microsoft/codebert-base"
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="microsoft/codebert-base"
 
 ### CodeGPT
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="microsoft/CodeGPT-small-py"
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="microsoft/CodeGPT-small-py"
 
 ### CodeBERTa
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="huggingface/CodeBERTa-small-v1"
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="huggingface/CodeBERTa-small-v1"
 
 ### GraphCodeBERT
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="microsoft/graphcodebert-base"
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="microsoft/graphcodebert-base"
 
 ### UnixCoder
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="microsoft/unixcoder-base"
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="microsoft/unixcoder-base"
 
 ### CodeExecutor
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="microsoft/codeexecutor"
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="microsoft/codeexecutor"
 
 ### LongCoder
-    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=10 --model_name="microsoft/longcoder-base"
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="microsoft/longcoder-base"
 
 
 
