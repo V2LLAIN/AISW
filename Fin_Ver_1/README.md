@@ -2,7 +2,6 @@
 """
 
     """
-    학습진행하는방법:
     python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16
     """
 """
