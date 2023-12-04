@@ -1,4 +1,7 @@
 # 학습진행하는방법:
+추가적으로 lr, batch_size, epoch, model, max_len, seed, weight_decay, padding, truncation 또한 terminal에서 학습 시 조정가능.
+
+Additionally, the parameters lr, batch_size, epoch, model, max_len, seed, weight_decay, padding, and truncation can be adjusted during training in the terminal.
 
 ### BERT
     python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="bert-base-
