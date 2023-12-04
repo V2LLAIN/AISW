@@ -1,7 +1,10 @@
 학습진행하는방법:
-"""
-python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16
-"""
+
+    """
+    학습진행하는방법:
+    python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16
+    """
+
 (다만 현재로서는 변수에 값입력해도 해당값에따라 값이 변화하지 않아 config.py파일에서 값을 직접 변경할 것.)
 
 
