@@ -38,16 +38,16 @@ Additionally, the parameters lr, batch_size, epoch, model, max_len, seed, weight
 <img width="184" alt="스크린샷 2023-12-04 오후 9 14 23" src="https://github.com/V2LLAIN/AISW/assets/104286511/7b346c53-9975-4c04-9708-869fcb711a3e">
     
     
-    python infer.py --file1 ./code1.py --file2 ./code2.py --model_path ./code_similarity_model
+    python infer.py --file1 code1.py --file2 code2.py 
 #####    
-    python infer.py --file1 ./code1.py --file2 ./code3.py --model_path ./code_similarity_model
+    python infer.py --file1 code1.py --file2 code3.py
 #####        
-    python infer.py --file1 ./code1.py --file2 ./code4.py --model_path ./code_similarity_model
+    python infer.py --file1 code1.py --file2 code4.py
 #####        
-    python infer.py --file1 ./code2.py --file2 ./code3.py --model_path ./code_similarity_model
+    python infer.py --file1 code2.py --file2 code3.py 
 #####        
-    python infer.py --file1 ./code2.py --file2 ./code4.py --model_path ./code_similarity_model
+    python infer.py --file1 code2.py --file2 code4.py 
 #####        
-    python infer.py --file1 ./code3.py --file2 ./code4.py --model_path ./code_similarity_model
+    python infer.py --file1 code3.py --file2 code4.py
    
 로 실행할 수 있습니다.
