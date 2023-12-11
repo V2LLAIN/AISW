@@ -22,8 +22,8 @@ def tokenized(examples):
                      return_token_type_ids=args.return_token_type_ids)
 
 def dataset():
-    #df = main()
-    df = pd.read_csv('df.csv')
+    df = main()
+    #df = pd.read_csv('df.csv')
     preprocess(df,"preprocess.csv")
     dataset = load_dataset("csv",data_files="preprocess.csv")['train']
     encoded_dataset = dataset.map(tokenized,remove_columns=['Unnamed: 0','code1','code2'],batched=True)
