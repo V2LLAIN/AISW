@@ -27,9 +27,9 @@ def calculate_similarity(file_path1, file_path2, model_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Code Similarity Evaluation")
-    parser.add_argument('--file1', type=str, help='Path to the first Python file')
-    parser.add_argument('--file2', type=str, help='Path to the second Python file')
-    parser.add_argument('--model_path', type=str, help='Path to the model directory')
+    parser.add_argument('--file1', default="code1.py")
+    parser.add_argument('--file2', default="code2.py")
+    parser.add_argument('--model_path', default="code_similarity_model")
 
     args = parser.parse_args()
 
