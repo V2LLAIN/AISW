@@ -8,7 +8,7 @@ from model import build_model
 from util import main
 
 def preprocess(df,file_name):
-  preprocess_df = df.replace(re.compile('(#.*)', re.MULTILINE),"",regex=True) #주석 한 줄
+  preprocess_df = df.replace(re.compile('(#.*)', re.MULTILINE),"",regex=True) #주석 한 줄짜리
   preprocess_df = preprocess_df.replace(re.compile('[\'\"]{3}.*?[\'\"]{3}', re.DOTALL),"",regex=True) #주석 여러줄
   preprocess_df = preprocess_df.replace(re.compile('[\n]{2,}', re.MULTILINE),"\n",regex=True) #다중개행 한번으로
   preprocess_df = preprocess_df.replace(re.compile('[ ]{4}', re.MULTILINE),"\t",regex=True) #tab 변환
