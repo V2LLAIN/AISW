@@ -28,7 +28,8 @@ Additionally, the parameters lr, batch_size, epoch, model, max_len, seed, weight
     python train.py --learning_rate=2e-4 --batch_size=16 --epoch_num=16 --model_name="microsoft/longcoder-base"
 
 
-
+### for your train easily: 
+https://drive.google.com/drive/folders/1-y3e56laI-MJnaS3gNr2XkI_2ypfOsVB?usp=sharing
   
 
 
