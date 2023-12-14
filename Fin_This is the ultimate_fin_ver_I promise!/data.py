@@ -8,6 +8,10 @@ from model import build_model
 from util import main
 
 def preprocess(df,file_name):
+  """
+  주석의 경우, 코드를 더 잘 설명할 수 있다는 장점은 있으나
+  주석이 다른 언어로 되어있는 경우(ex. 한국어, 영어, 일본어 등)를 대비해 주석은 제거.
+  """
   preprocess_df = df.replace(re.compile('(#.*)', re.MULTILINE),"",regex=True) #주석 한 줄짜리
   preprocess_df = preprocess_df.replace(re.compile('[\'\"]{3}.*?[\'\"]{3}', re.DOTALL),"",regex=True) #주석 여러줄
   preprocess_df = preprocess_df.replace(re.compile('[\n]{2,}', re.MULTILINE),"\n",regex=True) #다중개행 한번으로
